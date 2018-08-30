@@ -409,9 +409,6 @@ public final class ProbabilityNode {
 					// maxTk can't be larger than nk[k]
 					int maxTk = Math.min(tk[k] + windowForSamplingTk, nk[k]);
 					
-					//FIXME just for splice
-					maxTk = Math.min(100000,maxTk);
-					
 					int index = 0;
 					while(valTk<1){//move to first allowed position
 						probabilityForWindowTk[index]=Double.NEGATIVE_INFINITY;
