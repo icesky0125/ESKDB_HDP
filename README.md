@@ -1,9 +1,11 @@
 # ESKDB_HDP
 
-Installing
+Installing: 
 
 git clone https://github.com/icesky0125/ESKDB_HDP
+
 cd ESKDB_HDP
+
 mvn package
 
 To execute the demos, simply run:
