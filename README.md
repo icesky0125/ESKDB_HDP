@@ -22,7 +22,7 @@ A jar file will be created after using "mvn package" command under the target fo
 The default main class is "src/main/java/ESKDBTest/EvaluationESKDB.java"
 
 # Dataset format
-The code is build based on weka, so the dataset format used in this reporitory is "arff". You can try any arff dataets, or convert them to arff.
+The code is build based on weka, so the dataset format used in this reporitory is "arff". You can try any arff datasets, or convert them to arff.
 
 # Note
 please get the latest HDP smoothing package from https://github.com/fpetitjean/HDP.
